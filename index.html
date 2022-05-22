@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt</title>
+    <link rel="icon" type="image/x-icon" href="https://openclipart.org/download/282139/GlitchSimplifiedTreasureChest.svg" >
+    <link rel="stylesheet" href="treasurehunt.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&family=Nova+Round&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="top">Welcome to Treasure Hunt</h1><img src="https://openclipart.org/download/282139/GlitchSimplifiedTreasureChest.svg" alt="Trease logo" height="200px">
+    <h2>
+    <ul style="list-style: none;">
+            <li>Click on a mystery box to reveal an image.</li>
+        <li>If you click on the wrong one, you lose!</li>
+        <li>If you click on the treasure, you get the Crown!</li>
+    </ul>
+    </h2>
+    <div id="gameboard">
+    &nbsp
+    <table>
+        <tr>
+            <td id="0" onclick="treasure(0)")">?</td>
+            <td id="1" onclick="treasure(1)")">?</td>
+            <td id="2" onclick="treasure(2)")">?</td>
+            <td id="3" onclick="treasure(3)")">?</td>
+            <td id="4" onclick="treasure(4)")">?</td>
+            <td id="5" onclick="treasure(5)")">?</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td id="6" onclick="treasure(6)")">?</td>
+            <td id="7" onclick="treasure(7)")">?</td>
+            <td id="8" onclick="treasure(8)")">?</td>
+            <td id="9" onclick="treasure(9)")">?</td>
+            <td id="10" onclick="treasure(10)")">?</td>
+            <td id="11" onclick="treasure(11)")">?</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td id="12" onclick="treasure(12)")">?</td>
+            <td id="13" onclick="treasure(13)")">?</td>
+            <td id="14" onclick="treasure(14)")">?</td>
+            <td id="15" onclick="treasure(15)")">?</td>
+            <td id="16" onclick="treasure(16)")">?</td>
+            <td id="17" onclick="treasure(17)")">?</td>
+        </tr>
+    </table>
+    </div>
+    <h3 id="outcome"></h3>
+    <h2 id="counter">Turns Remaining:10</h2>
+
+    <p>
+    <button type="button" onclick="location.reload()">Restart Game</button>
+    </p>
+
+    <footer>
+        &copy; LEARN students
+        <h4>
+        <a href="#top">Back to top</a>
+        </h4>
+    </footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+h1 {
+  color: #696969;
+  font-size: 50px;
+}
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Nova Round', cursive;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2019/12/15/09/16/blue-4696630_1280.jpg);
+  background-size: cover;
+}
+
+table{
+    table-layout: fixed;
+    width: 500px;
+    border-radius: 1px;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: white;
+    font-size: 60px;
+    animation-duration: 6s;
+    animation-name: fade-in;
+}
+@keyframes fade-in{
+    from {
+        margin-left: 800%;
+        width: 25%;
+      }
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    font-size: 21px;
+}
+
+a:link{
+  color: gray;
+}
+
+a:visited{
+  color: white;
+}
+a:hover{
+  color: aqua;
+  font-size: 15px;
+}
+
+h3 {
+  color: white;
+  font-size: 50px;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+}
+
+div {
+  display: inline-table;
+  align-items: center;
+}
+
+ul {
+  display: contents;
+}
+
+td:hover{
+  color: orange;
+}
+
+td {
+  background-color: gray;
+  color: white;
+}
